@@ -1,0 +1,22 @@
+{
+  "name": "getelklicense",
+  "version": "1.0.0",
+  "description": "connects to replicated license api and downloads a trial license for users",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grantmiller/getelklicense.git"
+  },
+  "author": "Grant Miller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grantmiller/getelklicense/issues"
+  },
+  "homepage": "https://github.com/grantmiller/getelklicense#readme",
+  "dependencies": {
+    "express": "^4.12.4"
+  }
+}

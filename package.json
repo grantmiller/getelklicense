@@ -18,5 +18,8 @@
   "homepage": "https://github.com/grantmiller/getelklicense#readme",
   "dependencies": {
     "express": "^4.12.4"
+  },
+  "engines": {
+    "node": "0.12.2"
   }
 }

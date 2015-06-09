@@ -8,8 +8,8 @@ app.get('/', function (req, res) {
 
 var data = {
   'assignee': "new co",
-  'app_id': "849743531a7a758b1289f61866664ac5",
-  'channel_id': "d6300a4b6d6f734354fbd38d8af8ec0d",
+  'app_id': "d274a2217a1e02199ab00bc11241c6cd",
+  'channel_id': "6cee53a5baa006cf3b70bdbcbc5f126d",
   'expiration_date': "2015-06-30"
 };
 
@@ -19,7 +19,7 @@ var options = {
   path: '/vendor/v1/license',
   method: 'POST',
   headers: {
-    "Authorization": "ODk3ZWZiODctMGY4Yy00ZWU4LTliZTktNzRkZGM1OWRlMGZm"
+    "Authorization": "wme1dDbDTNSRHcdjsISGew"
   },
   contentType: 'application/json; charset=utf-8',
   data: data
@@ -35,7 +35,6 @@ var req = https.request(options, function(res) {
 });
 
 // write data to request body
-req.write('data\n');
 req.write('data\n');
 req.end();
 });

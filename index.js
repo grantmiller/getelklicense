@@ -35,7 +35,7 @@ var req = https.request(options, function(res) {
 });
 
 // write data to request body
-req.write('data\n');
+req.write(JSON.stringify(data));
 req.end();
 });
 
